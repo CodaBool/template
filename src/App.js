@@ -1,7 +1,9 @@
+import React from 'react'
+
 export default function App() {
   return (
-    <>
-      <h1>nice</h1>
-    </>
+    <div>
+      template
+    </div>
   )
 }
