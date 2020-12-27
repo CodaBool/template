@@ -18,3 +18,16 @@ create an .env file
 npm i
 
 sls deploy
+
+# commands 
+sls invoke local -f hello
+
+sls invoke -f hello
+
+sls create -t aws-python3 (shows good examples in its severless.yml file)
+
+- not sure how to have pip library (yeah that's a big problem)
+- this should be configured to run boto3 commands
+
+# docs
+https://www.serverless.com/framework/docs/
