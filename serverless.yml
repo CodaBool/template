@@ -1,0 +1,10 @@
+app: SET_NAME_HERE # change this line, severless app name
+org: codabool
+component: express
+name: sls-express # lambda name
+
+# docs => https://github.com/serverless/components#using-components
+# Severless app dashboard => https://app.serverless.com/codabool
+
+inputs:
+  src: ./
