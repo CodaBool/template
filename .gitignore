@@ -1,9 +1,2 @@
-# dependencies
 node_modules/
-
-# production
-build/
-
-# msc
 .env
-.eslintcache
