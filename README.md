@@ -1,1 +1,5 @@
-# template
+# Available Templates (branch-name)
+- react to heroku deploy (react-heroku)
+- next to heroku deploy (next-heroku)
+- express serverless (express)
+- python serverless (python)
