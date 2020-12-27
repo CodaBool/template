@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from 'react'
-// import useScreen from '../lib/useScreen'
+import { debounce } from '../../constants'
 
 export default function NavBox() {
   let screen = useScreen()
@@ -59,22 +59,6 @@ export default function NavBox() {
     </div>
   )
 }
-
-
-function debounce(func, wait, immediate) {
-	var timeout;
-	return function() {
-		var context = this, args = arguments;
-		var later = function() {
-			timeout = null;
-			if (!immediate) func.apply(context, args);
-		};
-		var callNow = immediate && !timeout;
-		clearTimeout(timeout);
-		timeout = setTimeout(later, wait);
-		if (callNow) func.apply(context, args);
-	};
-};
 
 function useScreen() {
 	const [screenType, setScreenType] = useState(getScreenType());
