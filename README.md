@@ -4,10 +4,8 @@
 - express serverless (express)
 - python serverless (python)
 
-# Serverless Installation
-This requires serverless cli [get started](https://www.serverless.com/framework/docs/providers/aws/cli-reference/)
-
-sls create -u https://github.com/CodaBool/sls-express-template/tree/main -n [FOLDER_NAME]
+# Express Install
+sls create -u https://github.com/CodaBool/template/tree/express -n [FOLDER_NAME]
 
 cd [FOLDER_NAME]
 
