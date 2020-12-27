@@ -5,7 +5,7 @@
 - python serverless (python)
 
 # Python Install
-sls create -u https://github.com/CodaBool/sls-express-template/tree/python -n [FOLDER_NAME]
+sls create -u https://github.com/CodaBool/template/tree/python -n [FOLDER_NAME]
 
 cd [FOLDER_NAME]
 
