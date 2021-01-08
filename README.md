@@ -3,6 +3,7 @@
 - next to heroku deploy (next-heroku)
 - express serverless (express)
 - python serverless (python)
+- nextjs to vercel deploy (vercel)
 
 # Serverless Installation
 This requires serverless cli [get started](https://www.serverless.com/framework/docs/providers/aws/cli-reference/)
