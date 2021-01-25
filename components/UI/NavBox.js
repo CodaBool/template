@@ -50,6 +50,7 @@ export default function NavBox() {
     }
   }
 
+  // SETUP: change url for code
   return (
     <div className="navBox">
       <img src='/image/navBox-home.png' ref={imgHome} id="img-home" />

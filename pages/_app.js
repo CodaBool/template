@@ -7,7 +7,7 @@ import Head from 'next/head'
 import '../global.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-export default function MyApp({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   return (
     <>
       <Provider session={pageProps.session}>
