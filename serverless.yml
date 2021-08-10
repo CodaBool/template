@@ -1,7 +1,11 @@
+# DOC https://github.com/serverless/components
+name: my-website                    # (required) name of your website component instance.
+stage: dev                          # (optional) serverless dashboard stage. default is dev.
 website:
   component: '@serverless/website'
   inputs:
-    bucketName: codabool-please-delete
+    # domain: serverless.com        # (optional) domain name. this could also be a subdomain.
+    bucketName: my-bucket           # (optional) aws bucket name. default is an auto generated name.
     code:
-      src: ./out
-      hook: npm run deploy
+      src: ./                       # (optional) path to the source folder. default is a hello world html file.
+      hook: npm run build           # (optional) script to run to build the app
