@@ -1,11 +1,23 @@
 # DOC https://github.com/serverless/components
-name: my-website                    # (required) name of your website component instance.
-stage: dev                          # (optional) serverless dashboard stage. default is dev.
+# I am purposely using the beta version
+# This is to remove the integration with app.serverless.com
+# Which has price plans and adds some complexity
+
+# For Full utilization of Next.js use @sls-next/serverless-component
+# Example https://github.com/CodaBool/market-mongo/blob/dev/serverless.yml
+
+name: ${env.REPO}                  # (required) name of your website component instance.
+stage: ${env.STAGE}                # (optional) serverless dashboard stage. default is dev.
 website:
   component: '@serverless/website'
   inputs:
-    # domain: serverless.com        # (optional) domain name. this could also be a subdomain.
-    bucketName: my-bucket           # (optional) aws bucket name. default is an auto generated name.
+    bucketName: ${name}-${stage}   # (optional) aws bucket name. default is an auto generated name.
     code:
-      src: ./                       # (optional) path to the source folder. default is a hello world html file.
-      hook: npm run build           # (optional) script to run to build the app
+      hook: npm run build
+      src: ./out                   # (optional) path to the source folder. default is a hello world html file.
+    # env:
+    #   BUILD_ID: ${env.BUILD_ID}
+    #   STAGE: ${env.STAGE}
+    #   REPO: ${env.REPO}
+    # domain: serverless.com        # (optional) domain name. this could also be a subdomain.
+    # bucketName: my-bucket           # (optional) aws bucket name. default is an auto generated name.
