@@ -3,6 +3,7 @@
 - next to heroku deploy (next-heroku)
 - express serverless (express)
 - python serverless (python)
+- sls-website-next (could be used for both simple and lambda next.js projects)
 
 # Serverless Installation
 This requires serverless cli [get started](https://www.serverless.com/framework/docs/providers/aws/cli-reference/)
