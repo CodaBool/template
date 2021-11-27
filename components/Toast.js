@@ -14,7 +14,7 @@ export default function ToastCustom({ show, setShow, title, body, error }) {
           <div
             className="mr-auto"
             style={{
-              backgroundImage: "url('/image/confetti.gif'",
+              backgroundImage: "url('/confetti.gif'",
               width: '100%'
             }}
           >
