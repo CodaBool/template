@@ -1,6 +1,7 @@
 # Available Templates (branch-name)
 - react to heroku deploy (react-heroku)
 - next to heroku deploy (next-heroku)
+- next 2022 (basic next)
 - express serverless (express)
 - python serverless (python)
 - sls-website-next (could be used for both simple and lambda next.js projects)
