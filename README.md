@@ -3,6 +3,7 @@
 - next to heroku deploy (next-heroku)
 - express serverless (express)
 - python serverless (python)
+- vite react (vite)
 - sls-website-next (could be used for both simple and lambda next.js projects)
 
 # Serverless Installation
