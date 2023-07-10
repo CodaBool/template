@@ -1,21 +1,8 @@
-# Available Templates (branch-name)
-- react to heroku deploy (react-heroku)
-- next to heroku deploy (next-heroku)
-- express serverless (express)
-- python serverless (python)
-- sls-website-next (could be used for both simple and lambda next.js projects)
+# notes
+- might not need threemin package if there is a better method later.
+- assumes vercel deploy
 
-# Serverless Installation
-This requires serverless cli [get started](https://www.serverless.com/framework/docs/providers/aws/cli-reference/)
-
-sls create -u https://github.com/CodaBool/sls-express-template/tree/main -n [FOLDER_NAME]
-
-cd [FOLDER_NAME]
-
-code . (edit app in serverless.yml)
-
-create an .env file
-
-npm i
-
-sls deploy
+### Links
+- [threlte](https://threlte.xyz)
+- [svelte](https://kit.svelte.dev)
+- [svelte guide](https://learn.svelte.dev)
